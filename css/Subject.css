@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+  transition: 0.3s;
+}
+
+div.subjectContent {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-width: 90vw;
+  width: 90vw;
+  margin-top: 10vh;
+  border-radius: 1vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #D0D0D0;
+}
+
+div.subjectContent:hover {
+  box-shadow: -1px -1px 10px 0.5px #303030, 1px 1px 10px 0.5px #303030;
+  cursor: pointer;
+}
+
+div.subjectContent p {
+  display: block;
+  position: relative;
+  left: 5%;
+  font-weight: 300;
+  color: #303030;
+  inline-size: 85vw;
+  font-family: 'Nunito', sans-serif;
+  overflow-wrap: break-word;
+}
+
+div.subjectContent p.sectionMain {
+  font-size: min(4vh, 5vh);
+  text-align: center;
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+div.subjectContent p.sectionTitle {
+  font-size: min(3vh, 4vh);
+  font-weight: 800;
+  left: 2%;
+  color: #000;
+  text-transform: capitalize;
+}
+
+div.subjectContent p.sectionDesc, div.subjectContent p.answerList {
+  left: 2%;
+  font-weight: 300;
+  font-size: min(2vh, 2.5vh);
+}
+
+span.sectionSubType {
+  color: #000;
+  font-weight: 800;
+  font-size: min(2.5vh, 3vh);
+}
+
+p.sectionDesc span.formulaValue {
+  display: block;
+  position: relative;
+  color: #505050;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+}
+
+span.exampleTitle {
+  font-weight: 800;
+  color: #000;
+}
+
+p.answerList span.ul {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+section.footer_section {
+  margin-top: 10vh;
+}
